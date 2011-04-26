@@ -1,0 +1,25 @@
+Kyle Schulz
+Aaron Hart
+John Langewisch
+Tyson Williams
+
+CSCI 442
+Operating Systems
+Project 4
+
+INSTALL GIT
+
+  Download and install Git
+  git config --global user.name "Kyle "Ryoken" Schulz"
+  git config --global user.email ryoken@ryoken.net
+
+FIRST STEPS
+
+  mkdir os_project4
+  cd os_project4
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:Ryoken/os_project4.git
+  git push -u origin master
